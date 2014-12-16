@@ -1,0 +1,32 @@
+﻿Build started 16/12/2014 11:14:37.
+     1>Project "C:\Users\Michael\Documents\IT Work\Graphics\FMOD\HelloWorld\HelloWorld.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Code Practice.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Code Practice.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt HelloWorld.cpp
+         HelloWorld.cpp
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(34): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(41): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(76): warning C4305: 'return' : truncation from 'int' to 'bool'
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(86): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(97): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(98): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(99): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(100): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(102): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(103): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(104): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(105): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\helloworld.cpp(323): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\helloworld.cpp(332): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\michael\documents\it work\graphics\fmod\helloworld\map.h(110): warning C4715: 'TileMap::load' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michael\Documents\IT Work\Graphics\FMOD\Debug\Code Practice.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michael\Documents\IT Work\Graphics\FMOD\Debug\Code Practice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michael\Documents\IT Work\Graphics\FMOD\Debug\Code Practice.lib" /MACHINE:X86 Debug\HelloWorld.obj
+         Debug\stdafx.obj
+         HelloWorld.vcxproj -> C:\Users\Michael\Documents\IT Work\Graphics\FMOD\Debug\Code Practice.exe
+     1>Done Building Project "C:\Users\Michael\Documents\IT Work\Graphics\FMOD\HelloWorld\HelloWorld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.49
